@@ -1,7 +1,12 @@
 #Simple Setup and Configuration for Home Assistant
 
 In this repo you will find my simple configuration examples for my home deployment of Home Assistant.
+
 https://home-assistant.io/
+
+##Hardware
+* Raspberry PI 2 - Running Hasbian 
+
 
 ##Getting Started
 
