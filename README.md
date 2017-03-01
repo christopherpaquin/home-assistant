@@ -6,8 +6,8 @@ In this repo you will find my simple configuration examples for my home deployme
 
 This is a simple configuration using the following files
 
-*configuration.yaml - Main Configuration File
-*secrets.yaml - For all passwords and keys - not checked into git
-*includes/customize.yaml - For all customizations (setting friendly_names and custom icons)
-*includes/groups - For all Groups
++configuration.yaml - Main Configuration File
++secrets.yaml - For all passwords and keys - not checked into git
++includes/customize.yaml - For all customizations (setting friendly_names and custom icons)
++includes/groups - For all Groups
 
