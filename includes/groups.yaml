@@ -1,0 +1,90 @@
+#####################
+# Home Tab
+#####################
+
+  default_view:
+    view: yes
+    entities:
+      - group.garage
+      - group.motion
+      - group.doors
+      - group.windows
+      - group.smartplug
+  garage:
+    name: Garage Door
+    entities:
+      - cover.garage_door_opener
+  motion:
+    name: Motion Sensors
+    entities:
+      - binary_sensor.motion_sensor__artspace_motion
+      - binary_sensor.motion_sensor__basement_motion
+      - binary_sensor.motion_sensor__kitchen_motion
+      - binary_sensor.motion_sensor__laundry_motion
+      - binary_sensor.motion_sensor__lv_room_motion
+  doors:
+    name: Doors
+    entities:
+      - binary_sensor.door__basement_opened
+      - binary_sensor.door__front_opened
+      - binary_sensor.door__laundry_room_opened
+      - binary_sensor.porch__door_opened 
+  windows:
+    name: Windows
+    entities:
+      - binary_sensor.window__artspace_opened
+      - binary_sensor.window__basement_office_opened
+  smartplug:
+    name: Smart Plugs
+    entities:
+      - switch.smart_plug_isp5_artspace
+      - switch.smart_plug_isp5_office
+
+#####################
+# Environmental Tab
+#####################
+  
+  environmental:
+    name: Environmental
+    view: yes 
+    entities:
+      - group.temp
+      - group.weather
+  weather:
+    name: Weather
+    entities: 
+      - sensor.pws_temp_f
+      - sensor.pws_relative_humidity
+      - sensor.pws_weather
+      - sensor.pws_precip_today_string
+      - sensor.pws_location
+      - sensor.pws_observation_time
+  temp:
+    name: Temperature
+    entities:
+      - sensor.motion_sensor__artspace_temperature
+      - sensor.motion_sensor__kitchen_temperature
+      - sensor.motion_sensor__laundry_temperature
+
+
+########################
+# System Tab
+########################
+
+  system:
+    name: System
+    view: yes
+    entities:
+    - group.hub
+    - group.speedtest
+  hub:
+    name: Wink Hub
+    entities:
+      - binary_sensor.hub
+  speedtest:
+    name: SpeedTest
+    entities:
+      - sensor.speedtest_ping
+      - sensor.speedtest_download
+      - sensor.speedtest_upload   
+  

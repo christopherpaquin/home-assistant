@@ -1,0 +1,9 @@
+.HA_VERSION
+.google.token
+.uuid
+home-assistant_v2.db
+home-assistant.log
+deps/
+secrets.yaml
+google_calendars.yaml
+

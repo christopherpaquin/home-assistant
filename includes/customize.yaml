@@ -1,0 +1,107 @@
+#Garage
+cover.garage_door_opener:
+  friendly_name: Chamberlain
+  icon: mdi:garage
+
+#Motion
+binary_sensor.motion_sensor__artspace_motion:
+  friendly_name: Artspace
+
+binary_sensor.motion_sensor__basement_motion:
+  friendly_name: Basement
+
+binary_sensor.motion_sensor__kitchen_motion:
+  friendly_name: Kitchen
+
+binary_sensor.motion_sensor__laundry_motion:
+  friendly_name: Laundry Room
+
+binary_sensor.motion_sensor__lv_room_motion:
+  friendly_name: Living Room
+
+#Doors
+binary_sensor.door__basement_opened:
+  friendly_name: Basement Entry 
+  icon: mdi:glassdoor
+  alias_on: 'Open'
+  alias_off: 'Closed'
+
+binary_sensor.door__front_opened:
+  friendly_name: Front Entry
+  icon: mdi:glassdoor
+  alias_on: 'Open'
+  alias_off: 'Closed'
+
+binary_sensor.door__laundry_room_opened:
+  friendly_name: Garage Entry
+  icon: mdi:glassdoor
+  alias_on: 'Open'
+  alias_off: 'Closed'
+
+binary_sensor.porch__door_opened:
+  friendly_name: Rear Entry
+  icon: mdi:glassdoor
+  alias_on: 'Open'
+  alias_off: 'Closed'
+
+#Windows
+binary_sensor.window__artspace_opened:
+  friendly_name: Artspace Window
+  icon: mdi:window-closed
+  alias_on: 'Open'
+  alias_off: 'Closed'
+
+binary_sensor.window__basement_office_opened:
+  friendly_name: Office Window
+  icon: mdi:window-closed
+  alias_on: 'Open'
+  alias_off: 'Closed'
+
+#Motion Sensors
+sensor.motion_sensor__artspace_temperature:
+ friendly_name: Artspace 
+
+sensor.motion_sensor__kitchen_temperature:
+ friendly_name: Kitchen 
+
+sensor.motion_sensor__laundry_temperature:
+ friendly_name: Laundry Room 
+
+#iHome Smart Plugs
+switch.smart_plug_isp5_artspace:
+ friendly_name: iHome Artspace
+ icon: mdi:power-plug
+
+switch.smart_plug_isp5_office:
+ friendly_name: iHome Basement
+ icon: mdi:power-plug
+
+#Weather
+sensor.pws_temp_f:
+ friendly_name: Temp
+
+sensor.pws_relative_humidity:
+ friendly_name: Humidity
+
+sensor.pws_weather:
+ friendly_name: Conditions
+
+sensor.pws_location:
+ friendly_name: Location
+
+sensor.pws_observation_time:
+ friendly_name: Last Update
+
+sensor.pws_precip_today_string:
+ friendly_name: Rain Today
+
+# Speedtest 
+sensor.speedtest_ping:
+  icon: mdi:speedometer
+  friendly_name: Ping
+sensor.speedtest_download:
+  icon: mdi:download
+  friendly_name: Download
+sensor.speedtest_upload:
+  icon: mdi:upload
+  friendly_name: Upload
