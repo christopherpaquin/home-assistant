@@ -28,7 +28,12 @@ This is a simple configuration using the following files
 * iHome Smart Plug iSP5
 * Edimax sp1101w (WIP)
 
+##Coming Soon
+* Trust Spotlight Webcam Pro - 16428
+* Edimax EW-7811Un WIFI USB Adapter
+
+
 ##Additional Integration
 * SpeedTest
 * Weather Underground
-* Google Calendar
+* Google Calendar (WIP)
