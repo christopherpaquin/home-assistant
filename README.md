@@ -33,6 +33,9 @@ See related documentation below.
 * Schlage BE469 - Lock
 * iHome Smart Plug iSP5
 * Edimax sp1101w (WIP)
+* DirecTV Receiver
+* Chromecast
+* LG WebOS TV
 
 ##Coming Soon
 * Trust Spotlight Webcam Pro - 16428
