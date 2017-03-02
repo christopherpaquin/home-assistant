@@ -26,7 +26,7 @@ This is a simple configuration using the following files
 * Chamberlain  HD750wf Garage Door
 * Schlage BE469 - Lock
 * iHome Smart Plug iSP5
-* Edimax sp1101w
+* Edimax sp1101w (WIP)
 
 ##Additional Integration
 * SpeedTest
