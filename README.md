@@ -21,6 +21,12 @@ This is a simple configuration using the following files
 * includes/customize.yaml - For all customizations (setting friendly_names and custom icons)
 * includes/groups - For all Groups
 
+See related documentation below.
+* [Creating secrets.yaml](https://home-assistant.io/docs/configuration/secrets/)
+* [Creating multiple configuration files](https://home-assistant.io/docs/configuration/splitting_configuration/)
+ 
+
+
 ##Connected Devices
 * Wink2 Hub
 * Chamberlain  HD750wf Garage Door
