@@ -6,4 +6,5 @@ home-assistant.log
 deps/
 secrets.yaml
 google_calendars.yaml
-
+webostv.conf
+home-assistant_v2.db-journal

@@ -41,6 +41,15 @@
       - switch.smart_plug_isp5_office
 
 #####################
+# Cameras
+#####################
+
+#  cameras:
+#    name: Cameras
+#    view: yes
+#    entities:
+
+#####################
 # Environmental Tab
 #####################
   
@@ -50,6 +59,12 @@
     entities:
       - group.temp
       - group.weather
+  temp:
+    name: Temperature
+    entities:
+      - sensor.motion_sensor__artspace_temperature
+      - sensor.motion_sensor__kitchen_temperature
+      - sensor.motion_sensor__laundry_temperature
   weather:
     name: Weather
     entities: 
@@ -59,12 +74,6 @@
       - sensor.pws_precip_today_string
       - sensor.pws_location
       - sensor.pws_observation_time
-  temp:
-    name: Temperature
-    entities:
-      - sensor.motion_sensor__artspace_temperature
-      - sensor.motion_sensor__kitchen_temperature
-      - sensor.motion_sensor__laundry_temperature
 
 
 ########################
@@ -87,4 +96,27 @@
       - sensor.speedtest_ping
       - sensor.speedtest_download
       - sensor.speedtest_upload   
+
+##############################
+# Media
+##############################
   
+  media:
+    name: Media
+    view: yes
+    entities:
+      - group.chromecast
+      - group.lgtv
+      - group.directv
+  chromecast:
+    name: chromecast
+    entities:
+      - media_player.chromecast_office
+  lgtv:
+    name: LG WebOS TV
+    entities:
+      - media_player.lg_webostv
+  directv:
+    name: Directv
+    entities:
+      - media_player.directv_receiver
