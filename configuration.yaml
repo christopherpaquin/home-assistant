@@ -12,6 +12,13 @@ homeassistant:
   time_zone: America/New_York
   customize: !include includes/customize.yaml
 
+zone:
+  name: Home
+  latitude: 33.9785
+  longitude: -83.8087
+  radius: 100
+  icon: mdi:home
+
 wink:
   email: !secret wink_email
   password: !secret wink_password
