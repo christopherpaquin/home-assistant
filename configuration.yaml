@@ -12,6 +12,10 @@ homeassistant:
   time_zone: America/New_York
   customize: !include includes/customize.yaml
 
+device_tracker:
+  - platform: owntracks
+    max_gps_accuracy: 200
+
 zone:
   name: Home
   latitude: 33.9785

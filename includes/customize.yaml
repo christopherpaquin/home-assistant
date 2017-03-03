@@ -137,3 +137,7 @@ switch.siren__strobe_bedroom:
   friendly_name: Master Bedroom
   icon: mdi:alert-octagram
 
+#Device Trackers - Phones and Tablets
+device_tracker.chrislgv20_chrislgv20:
+  friendly_name: Chris
+  entity_picture: https://fatmintech.files.wordpress.com/2017/03/gc-gravatar-copy.png
