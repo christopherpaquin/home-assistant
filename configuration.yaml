@@ -16,7 +16,7 @@ zone:
   name: Home
   latitude: 33.9785
   longitude: -83.8087
-  radius: 100
+  radius: 300
   icon: mdi:home
 
 wink:
