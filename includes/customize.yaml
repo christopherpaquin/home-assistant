@@ -140,4 +140,4 @@ switch.siren__strobe_bedroom:
 #Device Trackers - Phones and Tablets
 device_tracker.chrislgv20_chrislgv20:
   friendly_name: Chris
-  entity_picture: https://fatmintech.files.wordpress.com/2017/03/gc-gravatar-copy.png
+  entity_picture: https://fatmintech.files.wordpress.com/2017/03/headshot.jpg

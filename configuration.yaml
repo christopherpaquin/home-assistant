@@ -18,15 +18,15 @@ device_tracker:
 
 zone:
   name: Home
-  latitude: 33.9785
-  longitude: -83.9372
+  latitude: !secret home_lat
+  longitude: !secret home_long
   radius: 300
   icon: mdi:home
 
 zone 1:
   name: School
-  latitude: 33.9502
-  longitude: -83.7861
+  latitude: !secret school_lat
+  longitude: !secret school_long
   radius: 300
   icon: mdi:school
 
