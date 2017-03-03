@@ -82,18 +82,23 @@ sensor.pws_temp_f:
 
 sensor.pws_relative_humidity:
  friendly_name: Humidity
+ icon: mdi:water-percent
 
 sensor.pws_weather:
  friendly_name: Conditions
 
 sensor.pws_location:
  friendly_name: Location
+ icon: mdi:map-marker
 
 sensor.pws_observation_time:
  friendly_name: Last Update
+ icon: mdi:clock
 
 sensor.pws_precip_today_string:
  friendly_name: Rain Today
+ icon: mdi:weather-rainy
+
 
 # Speedtest 
 sensor.speedtest_ping:
