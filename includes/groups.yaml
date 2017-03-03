@@ -74,6 +74,7 @@
       - sensor.pws_precip_today_string
       - sensor.pws_location
       - sensor.pws_observation_time
+      - sensor.pws_alerts
 
 
 ########################
