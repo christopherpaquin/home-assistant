@@ -99,9 +99,23 @@ sensor.pws_precip_today_string:
 sensor.speedtest_ping:
   icon: mdi:speedometer
   friendly_name: Ping
+
 sensor.speedtest_download:
   icon: mdi:download
   friendly_name: Download
+
 sensor.speedtest_upload:
   icon: mdi:upload
   friendly_name: Upload
+
+# Directv
+media_player.directv_receiver:
+  friendly_name: Directv Basement
+
+# Chromecast
+media_player.chromecast_office:
+  friendly_name: Chromecast Office
+
+# LG TV
+media_player.lg_webostv:
+  friendly_name: LG WebOS TV
