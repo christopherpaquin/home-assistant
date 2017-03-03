@@ -19,6 +19,13 @@ zone:
   radius: 300
   icon: mdi:home
 
+zone 1:
+  name: School
+  latitude: 33.9502
+  longitude: -83.7861
+  radius: 200
+  icon: mdi:school
+
 wink:
   email: !secret wink_email
   password: !secret wink_password
