@@ -86,10 +86,16 @@
     entities:
     - group.hub
     - group.speedtest
+    - group.sirens
   hub:
     name: Wink Hub
     entities:
       - binary_sensor.hub
+  sirens:
+    name: "Sirens & Strobes"
+    entities:
+      - switch.siren__strobe
+      - switch.siren__strobe_bedroom
   speedtest:
     name: SpeedTest
     entities:

@@ -111,11 +111,24 @@ sensor.speedtest_upload:
 # Directv
 media_player.directv_receiver:
   friendly_name: Directv Basement
+  icon: mdi:satellite
 
 # Chromecast
 media_player.chromecast_office:
   friendly_name: Chromecast Office
+  icon: mdi:cast
 
 # LG TV
 media_player.lg_webostv:
   friendly_name: LG WebOS TV
+  icon: mdi:television
+
+# Siren & Strobes
+switch.siren__strobe:
+  friendly_name: Living Room
+  icon: mdi:alert-octagram
+
+switch.siren__strobe_bedroom:
+  friendly_name: Master Bedroom
+  icon: mdi:alert-octagram
+
