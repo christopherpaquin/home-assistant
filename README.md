@@ -42,7 +42,7 @@ See related documentation below.
 ##Coming Soon
 * Trust Spotlight Webcam Pro - 16428
 * Edimax EW-7811Un WIFI USB Adapter
-* Amcrest HDSeries 720p Wi-Fi IP Video Security Surveillance Camera, Plug/Play, Pan/Tilt, 2/Way Audio and Night Vision
+* Amcrest IPM-721B -  720p Wi-Fi IP Video Security Surveillance Camera
 * Simple Home Security Camera - XCS7-1003-WHT 
 
 
