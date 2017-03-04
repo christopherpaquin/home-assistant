@@ -45,11 +45,16 @@
 # Cameras
 #####################
 
-#  cameras:
-#    name: Cameras
-#    view: yes
-#    entities:
-
+  cameras:
+    name: Cameras
+    view: yes
+    entities:
+      - group.livingroom
+  livingroom:
+    name: Living Room
+    entities:
+      - camera.amcrest_camera 
+    
 #####################
 # Environmental Tab
 #####################

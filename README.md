@@ -38,11 +38,12 @@ See related documentation below.
 * LG WebOS TV
 * Cloud MQTT - MQTT Broker
 * Owntracks - MQTT Location Tracking
+* Amcrest IPM-721B -  720p Wi-Fi IP Video Security Surveillance Camera
+
 
 ##Coming Soon
 * Trust Spotlight Webcam Pro - 16428
 * Edimax EW-7811Un WIFI USB Adapter
-* Amcrest IPM-721B -  720p Wi-Fi IP Video Security Surveillance Camera
 * Simple Home Security Camera - XCS7-1003-WHT 
 
 
