@@ -50,10 +50,15 @@
     view: yes
     entities:
       - group.livingroom
+      - group.backyard
   livingroom:
     name: Living Room
     entities:
       - camera.amcrest_camera 
+  backyard:
+    name: Backyard
+    entities:
+      - camera.outcam
     
 #####################
 # Environmental Tab

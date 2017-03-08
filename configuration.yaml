@@ -80,6 +80,12 @@ camera:
     username: !secret amcrest_user_name
     password: !secret amcrest_password
 
+# Simple Home Camera 1 - Back Yard
+camera 1:
+  - platform: ffmpeg
+    name: Outcam
+    input: -rtsp_transport tcp -i rtsp://home:home@10.1.0.158:554/11
+
 
 # Show links to resources in log and frontend
 #introduction:

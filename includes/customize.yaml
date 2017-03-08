@@ -147,3 +147,7 @@ camera.amcrest_camera:
   friendly_name: Living Room
   icon: mdi:webcam
 
+#  Hisilicon/Simple Home IP Camera - Backyard
+camera.outcam:
+  friendly_name: Backyard
+  icon: mdi:webcam
