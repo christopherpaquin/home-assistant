@@ -149,5 +149,5 @@ camera.amcrest_camera:
 
 #  Hisilicon/Simple Home IP Camera - Backyard
 camera.outcam:
-  friendly_name: Backyard
+  friendly_name: Back Yard
   icon: mdi:webcam
