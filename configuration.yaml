@@ -85,6 +85,8 @@ camera 1:
   - platform: ffmpeg
     name: Outcam
     input: -rtsp_transport tcp -i rtsp://home:home@10.1.0.158:554/11
+    extra_arguments: -q:v 2
+
 
 
 # Show links to resources in log and frontend
