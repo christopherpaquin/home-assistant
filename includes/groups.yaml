@@ -50,12 +50,8 @@
     view: yes
     entities:
       - group.driveway
-      - group.backyard
       - group.livingroom
-  backyard:
-    name: Backyard
-    entities:
-      - camera.outcam
+      - group.backyard
   driveway:
     name: Driveway
     entities:
@@ -64,7 +60,10 @@
     name: Living Room
     entities:
       - camera.amcrest_camera 
-    
+  backyard:
+    name: Backyard
+    entities:
+      - camera.outcam
 #####################
 # Environmental Tab
 #####################

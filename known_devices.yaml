@@ -6,3 +6,11 @@ chrislgv20_chrislgv20:
   picture:
   track: true
   vendor:
+
+hostone:
+  hide_if_away: false
+  mac:
+  name: hostone
+  picture:
+  track: true
+  vendor:
