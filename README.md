@@ -52,3 +52,4 @@ See related documentation below.
 * SpeedTest
 * Weather Underground
 * Google Calendar (WIP)
+* Fast.com Speedtest

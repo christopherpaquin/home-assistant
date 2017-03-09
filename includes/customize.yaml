@@ -156,3 +156,8 @@ camera.outcam:
 camera.amcrest_camera_2:
   friendly_name: Driveway
   icon: mdi:webcam
+
+# Fast.com Speedtest
+sensor.fastcom_download:
+  friendly_name: Download Speed
+  icon: mdi:speedometer

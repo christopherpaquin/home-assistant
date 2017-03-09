@@ -194,5 +194,10 @@ sensor 1:
       - download
       - upload
 
+sensor 2:
+  - platform: fastdotcom
+    minute:
+      - 0
+      - 30
 
 group: !include includes/groups.yaml

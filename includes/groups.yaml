@@ -52,10 +52,6 @@
       - group.driveway
       - group.backyard
       - group.livingroom
-  livingroom:
-    name: Living Room
-    entities:
-      - camera.amcrest_camera 
   backyard:
     name: Backyard
     entities:
@@ -64,6 +60,10 @@
     name: Driveway
     entities:
       - camera.amcrest_camera_2
+  livingroom:
+    name: Living Room
+    entities:
+      - camera.amcrest_camera 
     
 #####################
 # Environmental Tab
@@ -94,7 +94,7 @@
 
 
 ########################
-# System Tab
+# Systems Tab
 ########################
 
   system:
@@ -113,12 +113,20 @@
     entities:
       - switch.siren__strobe
       - switch.siren__strobe_bedroom
-  speedtest:
-    name: SpeedTest
+
+##############################
+# Network
+##############################
+
+  network:
+    name: Network
+    view: yes
     entities:
-      - sensor.speedtest_ping
-      - sensor.speedtest_download
-      - sensor.speedtest_upload   
+      - group.fast
+  fast:
+    name: Internet Speed
+    entities:
+      - sensor.fastcom_download
 
 ##############################
 # Media
