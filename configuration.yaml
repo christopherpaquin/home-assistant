@@ -87,6 +87,13 @@ camera 1:
     input: -rtsp_transport tcp -i rtsp://home:home@10.1.0.158:554/11
     extra_arguments: -q:v 2 
 
+# Amcrest Camera 2 - Driveway
+camera 2:
+  - platform: amcrest
+    host: 192.168.0.147
+    username: !secret amcrest_user_name
+    password: !secret amcrest_password
+
 
 
 # Show links to resources in log and frontend
