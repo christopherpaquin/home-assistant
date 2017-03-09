@@ -151,3 +151,8 @@ camera.amcrest_camera:
 camera.outcam:
   friendly_name: Back Yard
   icon: mdi:webcam
+
+# Amcrest Camera 2 - Driveway
+camera.amcrest_camera_2:
+  friendly_name: Driveway
+  icon: mdi:webcam
