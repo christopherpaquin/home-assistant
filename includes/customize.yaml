@@ -161,3 +161,11 @@ camera.amcrest_camera_2:
 sensor.fastcom_download:
   friendly_name: Download Speed
   icon: mdi:speedometer
+
+# Edimax Smart Plug - Lab
+sensor.edimax_watts:
+  friendly_name: Watts
+
+switch.edimax_smart_plug:
+  friendly_name: "Toggle On/Off"
+  icon: mdi:power

@@ -128,7 +128,7 @@
     entities:
       - sensor.fastcom_download
   edimax:
-    name: Edimax Smart Plug
+    name: Power Usage
     entities:
       - sensor.edimax_watts
       - switch.edimax_smart_plug  
