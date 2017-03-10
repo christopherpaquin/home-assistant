@@ -165,6 +165,7 @@ sensor.fastcom_download:
 # Edimax Smart Plug - Lab
 sensor.edimax_watts:
   friendly_name: Watts
+  icon: mdi:power-settings
 
 switch.edimax_smart_plug:
   friendly_name: "Toggle On/Off"
