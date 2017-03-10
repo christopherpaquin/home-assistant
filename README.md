@@ -32,7 +32,7 @@ See related documentation below.
 * Chamberlain  HD750wf Garage Door
 * Schlage BE469 - Lock
 * iHome Smart Plug iSP5
-* Edimax sp1101w (WIP)
+* Edimax sp1101w 
 * DirecTV Receiver
 * Chromecast
 * LG WebOS TV
