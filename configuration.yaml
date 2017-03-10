@@ -45,9 +45,12 @@ ffmpeg:
   ffmpeg_bin: /usr/bin/ffmpeg
   
 
-#switch:
-#  - platform: edimax
-#    host: 192.168.0.199
+switch:
+  - platform: edimax
+    host: 192.168.0.199
+    username: !secret edimax_username
+    password: !secret edimax_password
+
 
 
 media_player 1:
@@ -175,6 +178,11 @@ sensor:
       - wind_kph
       - wind_mph
       - wind_string
+  - platform: template
+    sensors:
+       edimax1_watts:
+         value_template: '{{ states.switch.edimax1.attributes["current_power_mwh"] | float * 1000000 | round(2) }}'
+         unit_of_measurement: 'W'
 
 # Text to speech
 tts:

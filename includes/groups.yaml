@@ -122,10 +122,17 @@
     view: yes
     entities:
       - group.fast
+      - group.edimax
   fast:
     name: Internet Speed
     entities:
       - sensor.fastcom_download
+  edimax:
+    name: Edimax Smart Plug
+    entities:
+      - sensor.edimax1_watts
+      - switch.edimax_smart_plug  
+
 
 ##############################
 # Media
