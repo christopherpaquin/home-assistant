@@ -130,7 +130,7 @@
   edimax:
     name: Edimax Smart Plug
     entities:
-      - sensor.edimax1_watts
+      - sensor.edimax_watts
       - switch.edimax_smart_plug  
 
 
