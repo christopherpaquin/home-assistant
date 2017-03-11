@@ -171,6 +171,3 @@ switch.edimax_smart_plug:
   friendly_name: "Toggle On/Off"
   icon: mdi:power
 
-sensor.edimax_amps:
-  friendly_name: Amps
-  icon: mdi:power-settings
