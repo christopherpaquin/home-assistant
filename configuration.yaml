@@ -183,6 +183,9 @@ sensor:
        edimax_watts:
          value_template: '{{ states.switch.edimax_smart_plug.attributes["current_power_mwh"] | float * 1000000 | round(2) }}'
          unit_of_measurement: 'W'
+       edimax_amps:
+         value_template: '{{ states.switch.edimax_smart_plug.attributes["current_power_mwh"] | float * 1000000/110 | round(2) }}'
+         unit_of_measurement: 'Amps'
 
 # Text to speech
 tts:

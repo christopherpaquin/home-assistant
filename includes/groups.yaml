@@ -131,6 +131,7 @@
     name: Lab Power Usage
     entities:
       - sensor.edimax_watts
+      - sensor.edimax_amps
       - switch.edimax_smart_plug  
 
 
