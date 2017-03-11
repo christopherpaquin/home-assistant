@@ -48,7 +48,7 @@ See related documentation below.
 * Trust Spotlight Webcam Pro - 16428
 * Edimax EW-7811Un WIFI USB Adapter
 * APC BackUPS XS 1500
-* Xfinity U21-42366 UPS
+* Xfinity U12-42366 UPS
 
 
 ##Additional Integration
