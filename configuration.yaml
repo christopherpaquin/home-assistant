@@ -183,23 +183,54 @@ sensor:
        edimax_watts:
          value_template: '{{ states.switch.edimax_smart_plug.attributes["current_power_mwh"] | float * 1000000 | round(2) }}'
 
+binary_sensor:
+  - platform: command_line
+    command: cat /proc/sys/net/ipv4/ip_forward
+
+binary_sensor 1:
+  - platform: command_line
+    name: Asus RT-AC66U
+    command: ping -W 1 -c 1 192.168.0.1 > /dev/null 2>&1 && echo success || echo fail
+    device_class: connectivity
+    payload_on: "Up"
+    payload_off: "Down"
+
+
+binary_sensor 2:
+  - platform: command_line
+    name: Asus RT-AC66R
+    command: ping -W 1 -c 1 192.168.0.3 > /dev/null 2>&1 && echo success || echo fail
+    device_class: connectivity
+    payload_on: "Up"
+    payload_off: "Down"
+
+
+binary_sensor 3:
+  - platform: command_line
+    name: Asus EA-66
+    command: ping -W 1 -c 1 192.168.0.2 > /dev/null 2>&1 && echo success || echo fail
+    device_class: connectivity
+    payload_on: "1"
+    payload_off: "0"
+
 # Text to speech
 tts:
   platform: google
 
-google:
-  client_id: !secret google_client_id
-  client_secret: !secret google_client_secret
+#google:
+#  client_id: !secret google_client_id
+#  client_secret: !secret google_client_secret
 
-sensor 1:
-  - platform: speedtest
-    minute:
-      - 0
-      - 30
-    monitored_conditions:
-      - ping
-      - download
-      - upload
+# Not Used
+#sensor 1:
+#  - platform: speedtest
+#    minute:
+#      - 0
+#      - 30
+#    monitored_conditions:
+#      - ping
+#      - download
+#      - upload
 
 sensor 2:
   - platform: fastdotcom

@@ -123,6 +123,13 @@
     entities:
       - group.fast
       - group.edimax
+      - group.networkdevices
+  networkdevices:
+    name: Network Devices
+    entities:
+      - binary_sensor.asus_rtac66u
+      - binary_sensor.asus_rtac66r
+      - binary_sensor.asus_ea66
   fast:
     name: Internet Speed
     entities:
