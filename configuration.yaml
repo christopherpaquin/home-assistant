@@ -12,6 +12,10 @@ homeassistant:
   time_zone: America/New_York
   customize: !include includes/customize.yaml
 
+apcupsd:
+  host: 10.1.0.55
+  port: 3551
+
 
 # Owntracks
 device_tracker:
@@ -182,6 +186,13 @@ sensor:
     sensors:
        edimax_watts:
          value_template: '{{ states.switch.edimax_smart_plug.attributes["current_power_mwh"] | float * 1000000 | round(2) }}'
+  - platform: apcupsd
+    resources:
+      - bcharge
+      - loadpct
+      - status
+      - timeleft
+      - model
 
 binary_sensor:
   - platform: command_line
