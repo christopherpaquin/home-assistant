@@ -171,3 +171,18 @@ switch.edimax_smart_plug:
   friendly_name: "Toggle On/Off"
   icon: mdi:power
 
+# APC Back-UPS XS 1500G 
+sensor.ups_load:
+  friendly_name: "Load"
+
+sensor.ups_time_left:
+  friendly_name: "Minutes Left"
+
+sensor.ups_model:
+  friendly_name: "Model"
+
+sensor.ups_battery:
+  friendly_name: "Battery %"
+
+sensor.ups_status:
+  friendly_name: "Status"

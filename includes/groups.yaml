@@ -124,6 +124,7 @@
       - group.fast
       - group.edimax
       - group.networkdevices
+      - group.apc
   networkdevices:
     name: Network Devices
     entities:
@@ -139,7 +140,13 @@
     entities:
       - sensor.edimax_watts
       - switch.edimax_smart_plug  
-
+  apc:
+    name: Back-UPS XS 1500G
+    entities:
+      - sensor.ups_status
+      - sensor.ups_battery
+      - sensor.ups_load
+      - sensor.ups_time_left
 
 ##############################
 # Media
