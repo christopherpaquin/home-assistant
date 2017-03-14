@@ -200,13 +200,10 @@ sensor:
     host: 192.168.0.5
     port: 3493
     resources:
-      - ups.load
-      - ups.model
       - ups.status
-      - ups.beeper.status
       - battery.charge
+      - ups.load
       - battery.runtime
-      - input.voltage
 
 
 binary_sensor:

@@ -41,14 +41,8 @@ See related documentation below.
 * Amcrest IPM-721B -  720p Wi-Fi IP Video Security Surveillance Camera
 * Simple Home Security Camera - XCS7-1003-WHT
 * Amcrest IPM-751w - ProHD Vandal Dome IP Security Camera 
-
-
-
-##Coming Soon
-* Trust Spotlight Webcam Pro - 16428
-* Edimax EW-7811Un WIFI USB Adapter
 * APC BackUPS XS 1500
-* Xfinity U12-42366 UPS
+* APC BackUPS ES 350 (multiple
 
 
 ##Additional Integration

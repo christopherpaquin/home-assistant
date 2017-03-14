@@ -171,7 +171,7 @@ switch.edimax_smart_plug:
   friendly_name: "Toggle On/Off"
   icon: mdi:power
 
-# APC Back-UPS XS 1500G 
+# APC Back-UPS XS 1500G - LAB
 sensor.ups_load:
   friendly_name: "Load"
 
@@ -186,3 +186,19 @@ sensor.ups_battery:
 
 sensor.ups_status:
   friendly_name: "Status"
+
+# APC Back-UPS 350 - MDF
+sensor.network_closet_status_data:
+  friendly_name: "Status"
+
+sensor.network_closet_battery_charge:
+  friendly_name: "Battery %"
+  icon: mdi:battery
+
+sensor.network_closet_load:
+  friendly_name: "Load"
+
+sensor.network_closet_battery_runtime:
+  friendly_name: "Seconds Left"
+  icon: mdi:clock-alert
+

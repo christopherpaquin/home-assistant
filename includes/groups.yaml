@@ -125,6 +125,7 @@
       - group.edimax
       - group.networkdevices
       - group.apc
+      - group.nut1
   networkdevices:
     name: Network Devices
     entities:
@@ -147,6 +148,13 @@
       - sensor.ups_battery
       - sensor.ups_load
       - sensor.ups_time_left
+  nut1:
+    name: "Back-UPS ES 350 - MDF"
+    entities:
+      - sensor.network_closet_status_data
+      - sensor.network_closet_battery_charge
+      - sensor.network_closet_load
+      - sensor.network_closet_battery_runtime
 
 ##############################
 # Media
