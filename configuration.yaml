@@ -16,7 +16,6 @@ apcupsd:
   host: 10.1.0.55
   port: 3551
 
-
 # Owntracks
 device_tracker:
   - platform: owntracks
@@ -193,6 +192,22 @@ sensor:
       - status
       - timeleft
       - model
+  - platform: nut
+    alias: nutdev1
+    name: "network_closet"
+    username: !secret nut_username
+    password: !secret nut_password
+    host: 192.168.0.5
+    port: 3493
+    resources:
+      - ups.load
+      - ups.model
+      - ups.status
+      - ups.beeper.status
+      - battery.charge
+      - battery.runtime
+      - input.voltage
+
 
 binary_sensor:
   - platform: command_line

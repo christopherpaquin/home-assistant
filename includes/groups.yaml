@@ -141,7 +141,7 @@
       - sensor.edimax_watts
       - switch.edimax_smart_plug  
   apc:
-    name: Back-UPS XS 1500G
+    name: Back-UPS XS 1500G - Lab
     entities:
       - sensor.ups_status
       - sensor.ups_battery
