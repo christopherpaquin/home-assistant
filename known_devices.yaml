@@ -14,3 +14,11 @@ hostone:
   picture:
   track: true
   vendor:
+
+lizlgv20_lizlgv20:
+  hide_if_away: false
+  mac:
+  name: liz-lgv20
+  picture:
+  track: true
+  vendor:

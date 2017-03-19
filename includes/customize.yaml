@@ -142,6 +142,10 @@ device_tracker.chrislgv20_chrislgv20:
   friendly_name: Chris
   entity_picture: https://fatmintech.files.wordpress.com/2017/03/headshot.jpg
 
+device_tracker.lizlgv20_lizlgv20:
+  friendly_name: Liz
+  entity_picture: https://fatmintech.files.wordpress.com/2017/03/it5_picmonkeyed.jpg
+
 # Amcrest Camera 1 - Living Room
 camera.amcrest_camera:
   friendly_name: Living Room
