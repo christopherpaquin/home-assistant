@@ -12,6 +12,7 @@
       - group.doors
       - group.windows
       - group.smartplug
+      - group.temp
   garage:
     name: Garage Door
     entities:
@@ -41,7 +42,12 @@
     entities:
       - switch.smart_plug_isp5_artspace
       - switch.smart_plug_isp5_office
-
+  temp:
+    name: Temperature
+    entities:
+      - sensor.motion_sensor__artspace_temperature
+      - sensor.motion_sensor__kitchen_temperature
+      - sensor.motion_sensor__laundry_temperature
 #####################
 # Cameras
 #####################
@@ -65,33 +71,6 @@
     name: Backyard
     entities:
       - camera.outcam
-#####################
-# Environmental Tab
-#####################
-  
-  environmental:
-    name: Environmental
-    view: yes 
-    entities:
-      - group.temp
-      - group.weather
-  temp:
-    name: Temperature
-    entities:
-      - sensor.motion_sensor__artspace_temperature
-      - sensor.motion_sensor__kitchen_temperature
-      - sensor.motion_sensor__laundry_temperature
-  weather:
-    name: Weather
-    entities: 
-      - sensor.pws_temp_f
-      - sensor.pws_relative_humidity
-      - sensor.pws_weather
-      - sensor.pws_precip_today_string
-      - sensor.pws_location
-      - sensor.pws_observation_time
-      - sensor.pws_alerts
-
 
 ########################
 # Systems Tab
@@ -143,7 +122,7 @@
       - sensor.edimax_watts
       - switch.edimax_smart_plug  
   apc:
-    name: Back-UPS XS 1500G - Lab
+    name: "Back-UPS XS 1500G - Lab"
     entities:
       - sensor.ups_status
       - sensor.ups_battery
@@ -157,26 +136,3 @@
       - sensor.network_closet_load
       - sensor.network_closet_battery_runtime
 
-##############################
-# Media
-##############################
-  
-  media:
-    name: Media
-    view: yes
-    entities:
-      - group.chromecast
-      - group.lgtv
-      - group.directv
-  chromecast:
-    name: chromecast
-    entities:
-      - media_player.chromecast_office
-  lgtv:
-    name: LG WebOS TV
-    entities:
-      - media_player.lg_webostv
-  directv:
-    name: Directv
-    entities:
-      - media_player.directv_receiver
