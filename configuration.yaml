@@ -55,24 +55,6 @@ switch:
     password: !secret edimax_password
 
 
-
-media_player 1:
-  - platform: directv
-    host: 192.168.0.145
-
-media_player 2:
-  - platform: webostv
-    host: 192.168.0.102
-    name: LG WebosTV
-
-media_player 3:
-  - platform: directv
-    host: 192.168.0.209
-
-media_player 4:
-   - platform: cast
-     host: 192.168.0.146
-
 mqtt:
   broker: !secret mqtt_server
   port: !secret mqtt_port

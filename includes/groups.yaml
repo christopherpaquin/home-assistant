@@ -59,6 +59,7 @@
       - group.driveway
       - group.livingroom
       - group.backyard
+      - group.sideyard
   driveway:
     name: Driveway
     entities:
@@ -71,6 +72,11 @@
     name: Backyard
     entities:
       - camera.outcam
+  sideyard:
+    name: Side Yard
+    entities:
+      - camera.amcrest_camera_3
+
 
 ########################
 # Systems Tab

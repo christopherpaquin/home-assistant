@@ -161,6 +161,11 @@ camera.amcrest_camera_2:
   friendly_name: Driveway
   icon: mdi:webcam
 
+# Amcrest Camera 3 - Side Yard
+camera.amcrest_camera_3:
+  friendly_name: Side Yard
+  icon: mdi:webcam
+
 # Fast.com Speedtest
 sensor.fastcom_download:
   friendly_name: Download Speed
