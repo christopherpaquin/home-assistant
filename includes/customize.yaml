@@ -148,22 +148,22 @@ device_tracker.lizlgv20_lizlgv20:
 
 # Amcrest Camera 1 - Living Room
 camera.amcrest_camera:
-  friendly_name: Living Room
+  friendly_name: "Living Room"
   icon: mdi:webcam
 
 #  Hisilicon/Simple Home IP Camera - Backyard
 camera.outcam:
-  friendly_name: Back Yard
+  friendly_name: "Back Yard"
   icon: mdi:webcam
 
 # Amcrest Camera 2 - Driveway
 camera.amcrest_camera_2:
-  friendly_name: Driveway
+  friendly_name: "Driveway"
   icon: mdi:webcam
 
 # Amcrest Camera 3 - Side Yard
 camera.amcrest_camera_3:
-  friendly_name: Side Yard
+  friendly_name: "Side Yard"
   icon: mdi:webcam
 
 # Fast.com Speedtest
