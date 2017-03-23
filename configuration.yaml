@@ -100,6 +100,13 @@ camera 2:
     username: !secret amcrest_user_name
     password: !secret amcrest_password
 
+# Amcrest Camera 3 - Side Yard
+camera 3:
+  - platform: amcrest
+    host: 192.168.0.227
+    username: !secret amcrest_user_name
+    password: !secret amcrest_password
+
 
 
 # Show links to resources in log and frontend
