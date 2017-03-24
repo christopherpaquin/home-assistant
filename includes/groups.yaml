@@ -60,6 +60,7 @@
       - group.livingroom
       - group.backyard
       - group.sideyard
+      - group.artspace
   driveway:
     name: Driveway
     entities:
@@ -76,6 +77,10 @@
     name: Side Yard
     entities:
       - camera.side_yard
+  artspace:
+    name: Artspace
+    entities:
+      - camera.artspace
 
 
 ########################
