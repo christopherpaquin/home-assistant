@@ -67,6 +67,7 @@ camera:
     host: 192.168.0.207
     username: !secret amcrest_user_name
     password: !secret amcrest_password
+    name: "Living Room"
 
 # Simple Home Camera 1 - Back Yard
 camera 1:
@@ -81,6 +82,7 @@ camera 2:
     host: 192.168.0.147
     username: !secret amcrest_user_name
     password: !secret amcrest_password
+    name: "Driveway"
 
 # Amcrest Camera 3 - Side Yard
 camera 3:
@@ -88,6 +90,7 @@ camera 3:
     host: 192.168.0.227
     username: !secret amcrest_user_name
     password: !secret amcrest_password
+    name: "Side Yard"
 
 
 

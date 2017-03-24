@@ -63,11 +63,11 @@
   driveway:
     name: Driveway
     entities:
-      - camera.amcrest_camera_2
+      - camera.driveway
   livingroom:
     name: Living Room
     entities:
-      - camera.amcrest_camera 
+      - camera.living_room 
   backyard:
     name: Backyard
     entities:
@@ -75,7 +75,7 @@
   sideyard:
     name: Side Yard
     entities:
-      - camera.amcrest_camera_3
+      - camera.side_yard
 
 
 ########################
