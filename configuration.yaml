@@ -92,13 +92,6 @@ camera 3:
     password: !secret amcrest_password
     name: "Side Yard"
 
-# Local USB Camera - Artspace
-camera 4:
-  - platform: local_file
-    name: Artspace
-    file_path: /var/lib/motion/lastsnap.jpg
-
-
 
 # Show links to resources in log and frontend
 #introduction:
