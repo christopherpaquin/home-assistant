@@ -5,8 +5,6 @@
   default_view:
     view: yes
     entities:
-      - device_tracker.chrislgv20_chrislgv20
-      - device_tracker.lizlgv20_lizlgv20
       - group.garage
       - group.motion
       - group.doors
