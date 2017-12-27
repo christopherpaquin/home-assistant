@@ -16,25 +16,25 @@ apcupsd:
   host: 10.1.0.55
   port: 3551
 
-# Owntracks
-device_tracker:
-  - platform: owntracks
-    max_gps_accuracy: 100
+## Owntracks
+#device_tracker:
+#  - platform: owntracks
+#    max_gps_accuracy: 100
 
-# Zones Below
-zone:
-  name: Home
-  latitude: !secret home_lat
-  longitude: !secret home_long
-  radius: 300
-  icon: mdi:home
+## Zones Below
+#zone:
+#  name: Home
+#  latitude: !secret home_lat
+#  longitude: !secret home_long
+#  radius: 300
+#  icon: mdi:home
 
-zone 1:
-  name: School
-  latitude: !secret school_lat
-  longitude: !secret school_long
-  radius: 300
-  icon: mdi:school
+#zone 1:
+#  name: School
+#  latitude: !secret school_lat
+#  longitude: !secret school_long
+#  radius: 300
+#  icon: mdi:school
 
 # Wink 2 Hub
 wink:
@@ -55,11 +55,11 @@ switch:
     password: !secret edimax_password
 
 
-mqtt:
-  broker: !secret mqtt_server
-  port: !secret mqtt_port
-  username: !secret mqtt_user
-  password: !secret mqtt_password
+#mqtt:
+#  broker: !secret mqtt_server
+#  port: !secret mqtt_port
+#  username: !secret mqtt_user
+#  password: !secret mqtt_password
 
 # Amcrest Camera 1 - Living Room
 camera:
